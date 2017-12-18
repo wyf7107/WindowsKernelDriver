@@ -1,0 +1,33 @@
+﻿  Building 'KMDF Driver1' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  Stamping x64\Debug\KMDFDriver1.inf [Version] section with DriverVer=12/18/2017,1.2.50.651
+  main.c
+main.c(69): warning C4100: 'pDevObj': unreferenced formal parameter
+main.c(102): warning C4047: 'function': 'PUNICODE_STRING' differs in levels of indirection from 'PCUNICODE_STRING *'
+main.c(102): warning C4024: 'RtlInitUnicodeString': different types for formal and actual parameter 1
+main.c(102): warning C4129: 'W': unrecognized character escape sequence
+main.c(102): warning C4129: 'S': unrecognized character escape sequence
+main.c(101): warning C4133: 'initializing': incompatible types - from 'PWCH' to 'PCUNICODE_STRING'
+main.c(97): warning C4100: 'ProcessId': unreferenced formal parameter
+main.c(97): warning C4100: 'Process': unreferenced formal parameter
+main.c(111): warning C4100: 'str': unreferenced formal parameter
+main.c(147): warning C4100: 'pDevObj': unreferenced formal parameter
+main.c(155): warning C4100: 'pDevObj': unreferenced formal parameter
+  KMDF Driver1.vcxproj -> D:\WORK\KMDF Driver1\x64\Debug\KMDFDriver1.sys
+  Done Adding Additional Store
+  Successfully signed: D:\WORK\KMDF Driver1\x64\Debug\KMDFDriver1.sys
+  
+  Driver is a Universal Driver.
+  .........................
+  Signability test complete.
+  
+  Errors:
+  None
+  
+  Warnings:
+  None
+  
+  Catalog generation complete.
+  D:\WORK\KMDF Driver1\x64\Debug\KMDF Driver1\kmdfdriver1.cat
+  Done Adding Additional Store
+  Successfully signed: D:\WORK\KMDF Driver1\x64\Debug\KMDF Driver1\kmdfdriver1.cat
+  
